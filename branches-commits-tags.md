@@ -39,6 +39,12 @@ $ git branch -v
 * falando-sobre-branches 60fe7c4 Adicionando informações sobre branches
   master                 f1a4c21 Primeira versão, com arquivo índice (README.md) e as primeiras operações para criar um repositório e inserir um arquivo
 ```
+
+Para remover um branch utilizamos:
+```
+git branch -d <nome-do-branch>
+```
+
 ----
 
 ## Checkout
