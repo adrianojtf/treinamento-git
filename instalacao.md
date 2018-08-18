@@ -4,6 +4,16 @@
 
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
+## Sugestões Adicionais de Instalação
+
+Windows:
+ * winmerge: http://winmerge.org/downloads/
+ * Visual Studio Code: https://code.visualstudio.com/
+
+Linux:
+ * meld: http://meldmerge.org/
+ * Visual Studio Code: https://code.visualstudio.com/
+
 # Configurações
 
 ## Configurações do projeto
