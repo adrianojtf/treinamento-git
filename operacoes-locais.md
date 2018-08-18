@@ -16,4 +16,52 @@ git status
 git add README.md
 git commit -m 'adicionando arquivo'
 ```
+----
+
+## git add
+
+Adiciona um arquivo novo ou alterado na área de staging, para posterior envio para o repositório local.
+----
+
+## git status
+
+Analisa o estado da área de trabalho, indicando arquivos que foram alterados e/ou adicionados e/ou removidos.
+
+```
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+        modified:   conceitos.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        branches-commits-tags.md
+        imagens/git-branches.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+----
+
+## git commit
+
+Cria um **commit** com as alterações da área de trabalho que foram previamente definidas na área de staging.
+
+----
+
+## git commit -a
+
+Cria um **commit** com as alterações enviadas para a área de staging incluindo também qualquer arquivo que já esteja sob o controle do repositório e que tenha sido alterado desde o último commit.
+
+----
+
+## git commit --amend
+
+Altera o último commit complementando com novos arquivos ou uma nova mensagem.
 

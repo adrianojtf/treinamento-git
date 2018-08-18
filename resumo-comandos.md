@@ -6,6 +6,9 @@
 | git config --local | Define configuração do projeto |
 | git config --global | Define configuração do usuário |
 | git config --system | Define configuração para o sistema |
+| git config --local --list | Lista as configurações locais do projeto |
+| git config --global --list | Lista as configurações do usuário |
+| git config --system --list | Lista as configurações do sistema |
 | git init | Cria um novo repositório git local (cria a pasta .git) |
 | git add <arquivo> | Adiciona um arquivo na área de stage |
 | git status | Verifica o estado dos arquivos |
