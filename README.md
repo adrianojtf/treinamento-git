@@ -27,4 +27,4 @@ Esse tipo de sistema é muito presente em empresas e instituições de tecnologi
 
 ## Observações
 
-Este documento foi escrito em markdown, utilizando como referência este documento https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.Adicionando outro texto ao final do mesmo arquivo no branch master
+Este documento foi escrito em markdown, utilizando como referência este documento https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
