@@ -30,7 +30,13 @@ Esse tipo de sistema é muito presente em empresas e instituições de tecnologi
 
 [Resumo de Comandos](resumo-comandos.md)
 
+----
 
-## Observações
+## Referências
 
-Este documento foi escrito em markdown, utilizando como referência este documento https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
+ * https://git-scm.com/book/en/v2
+ * https://www.youtube.com/playlist?list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1 (Rodrigo Branas, git)
+ * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet (markdown é a linguagem utilizada para escrever este documento).
+ * https://github.com
+ * https://gitlab.com 
+

@@ -97,10 +97,38 @@ git commit -am 'teste.c no branch desenvolvimento'
 ----
 ## Comparando revisões
 
-git diff
+### git diff
 
-git diff branch_name
+Exibe as alterações da área de trabalho com relação ao último commit no branch atual ou com o conteúdo da área de staging (se houver).
 
-git diff v0.0.1 v0.0.2
+````
+$ git diff
+diff --git a/fluxos-de-trabalho.md b/fluxos-de-trabalho.md
+index 51c6dd9..e100952 100644
+--- a/fluxos-de-trabalho.md
++++ b/fluxos-de-trabalho.md
+@@ -97,8 +97,11 @@ git commit -am 'teste.c no branch desenvolvimento'
+ ----
+ ## Comparando revisões
+
+-git diff
++### git diff
+
++Exibe as alterações da área de trabalho com relação ao último commit no branch atual ou com o conteúdo da área de staging (se houve).
++
++###
+```
+
+ git diff branch_name
+
+ git diff v0.0.1 v0.0.2
+
+### git difftool 
+
+```
+$ git config --global  diff.guitool meld
+$ git config --global mergetool.meld.path "C:\Program Files (x86)\Meld\Meld.exe"
+$ git difftool --dir-diff --tool="meld" v0.0.1..master
+```
 
 [Voltar](README.md)
