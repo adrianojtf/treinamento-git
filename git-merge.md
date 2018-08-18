@@ -1,3 +1,5 @@
+[Voltar](README.md)
+
 # Merge
 
 Após criar um branch e fazer as alterações desejadas convém fazer um commit e, se for o caso, fazer um **merge** com algum outro branch.
@@ -82,3 +84,5 @@ Normal merge conflict for 'README.md':
   {local}: modified file
   {remote}: modified file
 ```
+
+[Voltar](README.md)

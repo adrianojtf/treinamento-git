@@ -24,6 +24,10 @@ Esse tipo de sistema é muito presente em empresas e instituições de tecnologi
 
 [Trabalhando com repositórios remotos](repositorios-remotos.md)
 
+[Fluxos de Trabalho](fluxos-de-trabalho.md)
+
+[Atenção](atencao.md)
+
 [Resumo de Comandos](resumo-comandos.md)
 
 
