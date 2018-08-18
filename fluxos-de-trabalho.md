@@ -67,13 +67,40 @@ git merge tag_remota_nova
 git checkout master
 vi teste.c
 git commit -am 'teste.c'
-
-# epa, esqueci de criar um branch, não era no master... :(
-
-git reset --hard HEAD~1
-git branch desenvolvimento
-
-git checkout desenvolvimento
 ```
+No git log vemos isso:
+```
+$ git log --oneline
+0f39e65 (HEAD -> master) teste.c
+af3a583 Adicionando fluxos-de-trabalho e atencao
+a88e334 (gitlab/master) Correção em links e adicionando informações sobre repositórios remotos
+...
+```
+
+Mas como essa alteração era pra ser num branch de desenvolvimento, vamos desfazer:
+
+```
+$ git reset HEAD^
+$ git log --oneline
+af3a583 (HEAD -> master) Adicionando fluxos-de-trabalho e atencao
+a88e334 (gitlab/master) Correção em links e adicionando informações sobre repositórios remotos
+...
+```
+
+Indo para um branch:
+```
+git checkout -b desenvolvimento
+git add teste.c
+git commit -am 'teste.c no branch desenvolvimento'
+```
+
+----
+## Comparando revisões
+
+git diff
+
+git diff branch_name
+
+git diff v0.0.1 v0.0.2
 
 [Voltar](README.md)
