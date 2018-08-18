@@ -1,3 +1,5 @@
+[Voltar](README.md)
+
 # Instalação
 
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
@@ -37,3 +39,5 @@ git config --global core.editor “vim”
 git config --global merge.tool vimdiff
 git config --global merge.tool meld
 ```
+
+[Voltar](README.md)

@@ -1,3 +1,5 @@
+[Voltar](README.md)
+
 # Conceitos
 
 Definição da Wikipedia (https://pt.wikipedia.org/wiki/Git)
@@ -10,13 +12,15 @@ Isto permite trabalhar localmente numa cópia sem a necessidade de utilizar o re
 Outra característica é que a partir de qualquer cópia do repositório é possível recriar o projeto, mesmo em caso de um desastre no repositório principal.
 
 O git é um software livre, criado em 2005 por Linux Torvalds, para manter o código fonte do Kernel do Linux, após o término da cessão de uso do software Bitkeeper, que foi utilizado com esta finalidade entre 2002 e 2005.
+
 Antes de iniciar o aprendizado dos conceitos do git, é necessário “limpar a mente” de conceitos utilizados em outros softwares de controle de versão, como o subversion.
+
 O git armazena e pensa nas informações de uma forma bem diferente que os sistemas tradicionais de controle de versão. Seguem algumas características que diferenciam o git de outros softwares como o subversion:
-armazena ‘snapshots’ e não diferenças entre as versões
-a maior parte das operações são realizadas localmente (commit, tag, branch, diff)
-poucas operações remotas: clone, pull, push, fetch
-integridade das revisões utilizando “SHA-1”
-é possível controlar revisões localmente sem a necessidade de um servidor
+ * armazena ‘snapshots’ e não diferenças entre as versões
+ * a maior parte das operações são realizadas localmente (commit, tag, branch, diff)
+ * poucas operações remotas: clone, pull, push, fetch
+ * integridade das revisões utilizando “SHA-1”
+ * é possível controlar revisões localmente sem a necessidade de um servidor
 
 O SHA-1 gerado é uma string de 40 caracteres hexadecimal, baseado no conteúdo dos arquivos e pastas.
 
@@ -39,3 +43,4 @@ Quando arquivos de um projeto são alterados no git, cada arquivo modificado pos
 
 ![git snapshots](imagens/git-snapshots.png)
 
+[Voltar](README.md)

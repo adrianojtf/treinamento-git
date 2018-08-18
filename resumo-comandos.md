@@ -1,3 +1,5 @@
+[Voltar](README.md)
+
 # Resumo de comandos
 
 | Comando        | Descrição  |
@@ -6,6 +8,9 @@
 | git config --local | Define configuração do projeto |
 | git config --global | Define configuração do usuário |
 | git config --system | Define configuração para o sistema |
+| git config --local --list | Lista as configurações locais do projeto |
+| git config --global --list | Lista as configurações do usuário |
+| git config --system --list | Lista as configurações do sistema |
 | git init | Cria um novo repositório git local (cria a pasta .git) |
 | git add <arquivo> | Adiciona um arquivo na área de stage |
 | git status | Verifica o estado dos arquivos |
@@ -15,3 +20,4 @@
 | git commit -a | Faz o commit dos arquivos alterados, mesmo que não tenham sido adicionados à area de stage|
 | git commit --amend | Substitui o commit anterior adicionando novas alterações ou substituíndo a mensagem|
  
+[Voltar](README.md)
