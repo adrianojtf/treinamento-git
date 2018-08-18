@@ -20,7 +20,9 @@ Esse tipo de sistema é muito presente em empresas e instituições de tecnologi
 
 [Branch, commit, tag, checkout](branches-commits-tags.md)
 
-[Visualizando os logs][git-log.md]
+[Visualizando os logs](git-log.md)
+
+[Trabalhando com repositórios remotos](repositorios-remotos.md)
 
 [Resumo de Comandos](resumo-comandos.md)
 
