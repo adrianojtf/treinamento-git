@@ -123,12 +123,23 @@ index 51c6dd9..e100952 100644
 
  git diff v0.0.1 v0.0.2
 
+----
+
 ### git difftool 
 
 ```
 $ git config --global  diff.guitool meld
 $ git config --global mergetool.meld.path "C:\Program Files (x86)\Meld\Meld.exe"
 $ git difftool --dir-diff --tool="meld" v0.0.1..master
+```
+
+----
+
+## Copiar alterações específicas de alguns commits de um branch e aplicando em outro
+
+```
+git checkout branch-x
+git cherry-pick <commit(s)>
 ```
 
 [Voltar](README.md)
