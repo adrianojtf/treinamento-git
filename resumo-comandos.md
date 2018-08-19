@@ -4,6 +4,7 @@
 
 | Comando        | Descrição  |
 | ------------- |-------------|
+| git init | Cria um novo repositório git local (cria a pasta .git) |
 | git config  | Define configuração do projeto |
 | git config --local | Define configuração do projeto |
 | git config --global | Define configuração do usuário |
@@ -11,7 +12,6 @@
 | git config --local --list | Lista as configurações locais do projeto |
 | git config --global --list | Lista as configurações do usuário |
 | git config --system --list | Lista as configurações do sistema |
-| git init | Cria um novo repositório git local (cria a pasta .git) |
 | git add arquivo | Adiciona um arquivo na área de stage |
 | git status | Verifica o estado dos arquivos |
 | git rm arquivo | Adiciona exclusão de arquivo na área de stage |
@@ -22,6 +22,8 @@
 | git branch branch-name| Cria um novo branch|
 | git branch | Lista os branches locais |
 | git branch -a | Lista tanto branches locais como remotos|
+| git branch -d branch | Remove um branch |
+| git branch -D branch | Remove um branch que não está em nenhum merge |
 | git checkout branch-name| Traz o conteúdo de determinado branch para a área de trabalho|
 | git checkout -b branch-novo branch-name| Cria o branch-novo a partir de branch-name e traz o conteúdo para a área de trabalho|
 | git checkout -- arquivo|Desfaz as alterações realizados num arquivo na área de trabalho e devolve o conteúdo a partir do último commit do branch|

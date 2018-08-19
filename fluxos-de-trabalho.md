@@ -95,13 +95,40 @@ git commit -am 'teste.c no branch desenvolvimento'
 ```
 
 ----
+
+## Transferindo vários commits para um novo branch
+
+Após trabalhar num desenvolvimento fazendo 3 commits você decide que deveria criar um branch para colocar o trabalho separado do master. O seu log está assim:
+```
+$ git log --oneline
+a347e18 (HEAD -> master) teste 3
+451127b teste 2
+6f5fef6 Teste
+9513e39 (gitlab/master, github/master) Adicionando submódulos, migração de svn para git, e melhorando resumo de comandos.
+```
+
+Vamos utilizar os comandos abaixo para criar o novo branch:
+```
+$ git branch teste
+$ git reset --hard HEAD~3
+$ git checkout teste
+```
+
+```
+$ git log --oneline
+a347e18 (HEAD -> teste) teste 3
+451127b teste 2
+6f5fef6 Teste
+9513e39 (gitlab/master, github/master, master) Adicionando submódulos, migração de svn para git, e melhorando resumo de comandos.
+```
+----
 ## Comparando revisões
 
 ### git diff
 
 Exibe as alterações da área de trabalho com relação ao último commit no branch atual ou com o conteúdo da área de staging (se houver).
 
-````
+```
 $ git diff
 diff --git a/fluxos-de-trabalho.md b/fluxos-de-trabalho.md
 index 51c6dd9..e100952 100644
@@ -119,9 +146,9 @@ index 51c6dd9..e100952 100644
 +###
 ```
 
- git diff branch_name
+### git diff branch_name
 
- git diff v0.0.1 v0.0.2
+### git diff v0.0.1 v0.0.2
 
 ----
 
