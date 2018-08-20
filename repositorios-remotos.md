@@ -36,6 +36,20 @@ Etapas envolvidas (implícitas ao git clone):
  * download do conteúdo do repositório para a pasta nginx/.git (git fetch)
  * cópia dos arquivos para o área de trabalho (git checkout master)
 
+----
+## git push remote-name branch
+
+Envia um branch local para um repositório remoto.
+
+```
+git push origin master
+git push gitlab master
+```
+----
+## git push remote-name --tags
+
+Envia todas as tags para o repositório remoto.
+----
 
 ## git fetch
 
@@ -48,7 +62,7 @@ git fetch não atualiza a área de trabalho e nem faz merge.
 **git pull** atualiza o repositório local com novos commits do repositório remoto e faz o merge com o branch atual. É uma sequência de git fetch e git merge.
 
 ----
-## git remote add <remote-name> <url>
+## git remote add remote-name url
 
 Adiciona a url de configuração de um repositório remoto.
 
@@ -56,15 +70,6 @@ Adiciona a url de configuração de um repositório remoto.
 git remote add gitlab git@gitlab.com:jairo.gubler/treinamento-git.git
 ```
 
-----
-## git push <remote> <branch>
-
-Envia um branch local para um repositório remoto.
-
-```
-git push origin master
-git push gitlab master
-```
 ----
 
 ## git remote rename
