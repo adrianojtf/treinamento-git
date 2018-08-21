@@ -4,14 +4,12 @@
 
 Definição da Wikipedia (https://pt.wikipedia.org/wiki/Git)
 
-Git pronunciado [git] (ou pronunciado [dit] em inglês britânico) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos. 
+Git pronunciado [git] (ou pronunciado [dit] em inglês britânico) é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. O Git é um software livre, foi criado em 2005 por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos. 
 
 Conforme a definição, o git é um sistema de controle de versão distribuído (DVCS), o que significa que o código fonte não fica armazenado apenas em um repositório central, mas cada desenvolvedor que trabalha em determinado projeto possui uma imagem completa contendo todas as revisões, ou seja, toda a história de evolução do projeto.
 
 Isto permite trabalhar localmente numa cópia sem a necessidade de utilizar o repositório central para verificar outras revisões e fazer comparações.
 Outra característica é que a partir de qualquer cópia do repositório é possível recriar o projeto, mesmo em caso de um desastre no repositório principal.
-
-O git é um software livre, criado em 2005 por Linux Torvalds, para manter o código fonte do Kernel do Linux, após o término da cessão de uso do software Bitkeeper, que foi utilizado com esta finalidade entre 2002 e 2005.
 
 Antes de iniciar o aprendizado dos conceitos do git, é necessário “limpar a mente” de conceitos utilizados em outros softwares de controle de versão, como o subversion.
 
