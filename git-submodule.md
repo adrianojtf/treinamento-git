@@ -9,7 +9,7 @@ Submódulos no git tem uma função semelhante ao **svn externals**, mas com car
 
 ```
 git submodule add $repository $sub_dir
-````
+```
 
 ```
 git submodule add -b build-64bits git@gitlab.digitro.com.br:crazylifeteam/media-streaming-server.git media-streaming-server
@@ -17,7 +17,7 @@ git submodule add -b build-64bits git@gitlab.digitro.com.br:crazylifeteam/media-
 
 # Baixar as dependências após um git clone
 
-````
+```
 git submodule init
 git submodule update
 ```

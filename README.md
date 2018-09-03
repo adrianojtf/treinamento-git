@@ -2,7 +2,7 @@
 
 # Git
 
-Git é um sistema de controle de versões de software distribuído.
+Git é um sistema distribuído de controle de versões de software.
 
 **E o que vem a ser um sistema de controle de versões?**
 

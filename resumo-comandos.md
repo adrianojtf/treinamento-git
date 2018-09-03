@@ -28,7 +28,7 @@
 | git checkout -b branch-novo branch-name| Cria o branch-novo a partir de branch-name e traz o conteúdo para a área de trabalho|
 | git checkout -- arquivo|Desfaz as alterações realizados num arquivo na área de trabalho e devolve o conteúdo a partir do último commit do branch|
 | git stash | Armazena as alterações na área de trabalho em área temporária e retorna a área de trabalho ao estado original do último commit |
-| git stash apply| Aplica as alterações na área de trabalho |
+| git stash apply| Aplica as alterações que foram enviadas para a área temporária na área de trabalho |
 | git log | mostra as versões do repositório |
 | git log --oneline | mostra as versões do repositório (uma linha por commit)|
 | git log --oneline --decorate --graph --all| Mostra as revisões indicando merges e branches de forma "gráfica"|

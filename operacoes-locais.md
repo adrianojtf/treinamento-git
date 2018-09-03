@@ -68,4 +68,20 @@ Cria um **commit** com as alterações enviadas para a área de staging incluind
 
 Altera o último commit complementando com novos arquivos ou uma nova mensagem.
 
+## git commit -m 'mensagem'
+
+Faz o commit passando mensagem do commit
+
+```
+$ git commit -m 'Pequenas correções'
+[master 3e8830f] Pequenas correções
+ 4 files changed, 46 insertions(+), 8 deletions(-)
+```
+
+## Estrutura de Dados Internas
+
+![Estruturas de Dados Internas](/imagens/git-commit-tree-blob.png)
+
+
+
 [Voltar](README.md)
