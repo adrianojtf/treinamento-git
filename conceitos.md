@@ -15,7 +15,7 @@ Antes de iniciar o aprendizado dos conceitos do git, é necessário “limpar a 
 
 O git armazena e pensa nas informações de uma forma bem diferente que os sistemas tradicionais de controle de versão. Seguem algumas características que diferenciam o git de outros softwares como o subversion:
  * armazena ‘snapshots’ e não diferenças entre as versões
- * a maior parte das operações são realizadas localmente (commit, tag, branch, diff)
+ * a maior parte das operações são realizadas localmente (commit, tag, branch, diff, lo, checkout, merge)
  * poucas operações remotas: clone, pull, push, fetch
  * integridade das revisões utilizando “SHA-1”
  * é possível controlar revisões localmente sem a necessidade de um servidor

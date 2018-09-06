@@ -38,7 +38,8 @@
 | git pull repo-name> branch-name|Busca os commits do branch branch-name do repositório repo-name e aplica no repositório local e na área de trabalho (faz merge)|
 | git fetch repo-name branch-name|Busca os commits do branch branch-name do repositório repo-name e aplica no repositório local (não faz merge)|
 | git remote rename repo-origem repo-destino|Altera o nome do repositório remoto de repo-origem para repo-destino|
-| git merge branch|Faz **merge** do branch com o branch atual na área de trabalho|
-| git reset ^HEAD| Desfaz um commit|
+| git merge **branch**|Faz **merge** do branch com o branch atual na área de trabalho|
+| git merge --squash **branch**|Faz merge do branch com o branch atual agrupando os commits |
+| git reset ^HEAD| Desfaz um commit |
 
 [Voltar](README.md)

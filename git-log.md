@@ -29,4 +29,11 @@ git log --oneline
 
 ![Author-Commiter](imagens/git-author-commiter.png)
 
+----
+
+## Estrutura de Dados Internas
+
+![Estruturas de Dados Internas](/imagens/git-commit-tree-blob.png)
+
+
 [Voltar](README.md)

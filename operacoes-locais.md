@@ -78,10 +78,4 @@ $ git commit -m 'Pequenas correções'
  4 files changed, 46 insertions(+), 8 deletions(-)
 ```
 
-## Estrutura de Dados Internas
-
-![Estruturas de Dados Internas](/imagens/git-commit-tree-blob.png)
-
-
-
 [Voltar](README.md)

@@ -168,5 +168,48 @@ $ git difftool --dir-diff --tool="meld" v0.0.1..master
 git checkout branch-x
 git cherry-pick <commit(s)>
 ```
+----
+
+## Alterar a mensagem do último e/ou adicionar arquivos
+
+Alterar a mensagem do último commit:
+
+```
+git commit --amend -m 'nova mensagem'
+```
+
+Adicionar arquivos ao último commit:
+```
+git add arquivo-novo
+git commit --amend -m 'novos arquivos'
+```
+
+
+
+----
+
+## Realizar um merge agrupando todos os commits de um branch de desenvolvimento de funcionalidade
+
+Durante o desenvolvimento de uma nova funcionalidade vamos criar um branch específico para uma funcionalidade.
+
+Dependendo da complexidade da funcionalidade poderemos ter dezenas de commits neste branch e muitos deles talvez com mensagens não muito elaboradas.
+
+O git permite que se faça um agrupamento destes commits em um único durante a operação de merge.
+
+Vamos considerar que o branch funcionalidade-x contém a nova funcionalidade e develop é o branch que receberá o merge.
+
+```
+git checkout develop
+git merge --squash funcionalidade-x
+```
+
+Diferente de um merge comum, aqui será necessário adicionar os arquivos à area de staging e fazer o commit.
+Na operação de commit, o git exibirá todas as mensagens dos commits intermediários realizados, permitindo que você selecione e edite o que deseja que já para o commit agrupador.
+
+```
+git add ...
+git commit
+```
+
 
 [Voltar](README.md)
