@@ -29,6 +29,9 @@
 | git checkout -- arquivo|Desfaz as alterações realizados num arquivo na área de trabalho e devolve o conteúdo a partir do último commit do branch|
 | git stash | Armazena as alterações na área de trabalho em área temporária e retorna a área de trabalho ao estado original do último commit |
 | git stash apply| Aplica as alterações que foram enviadas para a área temporária na área de trabalho |
+| git stash pop| Aplica as alterações que foram enviadas para a área temporária na área de trabalho e remove da área de stash |
+| git stash list| lista conteúdo da área de stash|
+| git stash drop **stash-id**| remove conteúdo da área de stash|
 | git log | mostra as versões do repositório |
 | git log --oneline | mostra as versões do repositório (uma linha por commit)|
 | git log --oneline --decorate --graph --all| Mostra as revisões indicando merges e branches de forma "gráfica"|
