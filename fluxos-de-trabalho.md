@@ -18,7 +18,7 @@ git branch -d nova_funcionalidade
 
 ## Durante a implementação de nova funcionalidade surge um bug para corrigir
 
-Neste caso vamos utilizar o comando **git stash** e depois **git stash apply** para salvar e recuperar alterações em andamento no workspace.
+Neste caso vamos utilizar o comando **git stash** e depois **git stash pop** para salvar e recuperar alterações em andamento no workspace.
 
 ```
 git checkout -b nova_funcionalidade master
@@ -35,7 +35,7 @@ git tag v1.0.1
 git checkout master
 git merge branch_v1.0.1
 git checkout nova_funcionalidade
-git stash apply
+git stash pop
 ```
 
 Se desejável aplicar o patch neste branch também:

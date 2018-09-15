@@ -48,7 +48,11 @@ git push gitlab master
 ----
 ## git push remote-name --tags
 
-Envia todas as tags para o repositório remoto.
+Sincroniza as tags locais para o repositório remoto.
+
+```
+git push gitlab --tags
+```
 ----
 
 ## git fetch
