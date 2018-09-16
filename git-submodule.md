@@ -12,7 +12,7 @@ git submodule add $repository $sub_dir
 ```
 
 ```
-git submodule add -b build-64bits git@gitlab.digitro.com.br:crazylifeteam/media-streaming-server.git media-streaming-server
+git submodule add -b build-64bits git@gitlab.empresa.com.br:crazylifeteam/media-streaming-server.git media-streaming-server
 ```
 
 # Baixar as dependências após um git clone

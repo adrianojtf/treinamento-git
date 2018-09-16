@@ -36,6 +36,12 @@ Esse tipo de sistema é muito presente em empresas e instituições de tecnologi
 
 ----
 
+## Apresentação
+
+[Apresentação em PDF](git-apresentacao.pdf)
+
+----
+
 ## Referências
 
  * https://git-scm.com/book/en/v2
