@@ -36,6 +36,7 @@
 | git log --oneline | mostra as versões do repositório (uma linha por commit)|
 | git log --oneline --decorate --graph --all| Mostra as revisões indicando merges e branches de forma "gráfica"|
 | git remote add repo-name url| Configura um repositório remoto para um repositório local|
+| git remote rename **nome-antigo** **nome-novo**| Altera o nome associado ao repositório remoto|
 | git clone url [-o local-repo-name] [dirname]|Faz um clone de um repositório remoto para a pasta dirname e vai chamar o repositório de local-repo-name (se omitido utilizado **origin**). Se a pasta destino for omitida é utilizado o nome do projeto|
 | git push repo-name branch-name| Envia os commits do branch corrente no repositório local para o repositório remoto **repo-name** no branch branch-name|
 | git pull repo-name> branch-name|Busca os commits do branch branch-name do repositório repo-name e aplica no repositório local e na área de trabalho (faz merge)|
